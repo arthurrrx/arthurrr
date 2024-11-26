@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Livraria 7 Irmãos</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/slick.css"/>
+
+        <link href="css/tooplate-little-fashion.css" rel="stylesheet">
+
+
+-->
+    </head>
+    <style>
+    .imgeua{
+        width: 20px;
+        height: 15px;
+    }
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.slick-slideshow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.slick-custom {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+.slick-custom img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.slick-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+.slick-title {
+    font-size: 2rem;
+    color: white;
+}
+
+.lead {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.custom-btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #cc5200;
+}
+
+@media (min-width: 768px) {
+    .slick-custom {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .slick-title {
+        font-size: 2.5rem;
+    }
+    
+    .lead {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .slick-custom {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .slick-title {
+        font-size: 3rem;
+    }
+    
+    .lead {
+        font-size: 1.8rem;
+    }
+}
+
+    </style>
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <strong><span>Livraria</span> 7 Irmãos</strong>
+                    </a>
+
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Equipe</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Produtos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">FAQs</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Projetos</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                            <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                            <a href="index-eng.html" class="usa-flag-button"><img src="https://www.gov.br/agricultura/pt-br/assuntos/relacoes-internacionais/agro-mais-investimentos/imagens/bandeira-dos-estados-unidos.png/@@images/image.png" class="imgeua"></a>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+           <!-- 21 vasos <!-->
+            <section class="slick-slideshow">   
+                <div class="slick-custom">
+                    <img src="https://cdn.pixabay.com/photo/2022/08/28/16/13/vases-7417040_1280.jpg" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Problema dos 21 vasos</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Beremiz avista em uma hospedaria o xeque salém nasair que o chamava para a hospedaria apresentando-o um desafio de 3 viajantes sobre a divisão de 21 vasos sendo 7 cheios, 7 meio cheio e 7 vazios onde os 3 deveriam estar com a mesma quantidade de vinho. Veja como ele resolveu!</p>
+
+                                    <a href="21vasos.html" class="btn custom-btn">Veja mais!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="https://cdn.pixabay.com/photo/2016/01/05/13/58/apple-1122537_1280.jpg" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">As 90 maçãs</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Você já imaginou como dividir 90 maçãs entre três pessoas de forma proporcional, mas com uma regra matemática específica? No livro O Homem que Calculava, Beremiz Samir enfrenta esse desafio e usa seu raciocínio lógico para encontrar a solução. Vamos ver se você consegue descobrir como ele resolve essa charada!</p>
+
+                                    <a href="90macas.html" class="btn custom-btn">Veja mais!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="https://cdn.pixabay.com/photo/2019/07/25/10/43/ballerina-4362282_640.jpg" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">As bailarinas gemêas</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Você consegue desvendar o enigma das bailarinas gêmeas? No livro O Homem que Calculava, Beremiz Samir é desafiado a descobrir como duas bailarinas, aparentemente idênticas, podem se mover de maneira diferente em um palco, respeitando uma sequência específica de movimentos. Vamos testar seu raciocínio lógico e ver se você consegue resolver esse intrigante mistério!
+
+
+
+                                        .</p>
+
+                                    <a href="bailarinas.html" class="btn custom-btn">Veja mais!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="https://files.oaiusercontent.com/file-MUT8j1dRKNmKTwtO2TeYEPed?se=2024-10-19T12%3A59%3A06Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D15c3e3e8-2dc4-473e-b6a8-8e37948465ef.webp&sig=z3ii/g8Nds6thjkZOeVoZwgyAVMDsB8k6FGkTRrBqgM%3D" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Os 5 discos</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Você consegue resolver o desafio dos 5 discos? No livro O Homem que Calculava, Beremiz Samir é apresentado a um enigma onde ele precisa mover cinco discos de um pino para outro, respeitando algumas regras específicas. Vamos ver se você consegue encontrar a solução dessa charada matemática!</p>
+
+                                    <a href="disco.html" class="btn custom-btn">Veja mais!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="about section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5"> Conheça o autor dessa obra Julio Cesár conhecido como <span>Malba Tahan</span></h2>
+                        </div>
+
+                        <div class="col-lg-2 col-12 mt-auto mb-auto">
+                            <ul class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Introdução</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-youtube-tab" data-bs-toggle="pill" data-bs-target="#pills-youtube" type="button" role="tab" aria-controls="pills-youtube" aria-selected="true">Como trabalhava?</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="false">Obras</button>
+                                </li>
+                            </ul>
+                        </div>
+ 
+                        <div class="col-lg-10 col-12">
+                            <div class="tab-content mt-2" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="https://www.jm1.com.br/wp-content/uploads/2022/01/malba-tahan.jpg" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3"> Um bom <span>Escritor</span> <br>Um bom <span>matemático</span> </h4>
+
+                                                <p>O criador de O Homem que Calculava, Malba Tahan, nasceu com o nome de Julio César de Mello e Souza, em 1895, no Brasil. Desde jovem, demonstrou grande interesse por matemática e literatura. Sua formação acadêmica foi marcada por estudos em matemática, e ele se tornou professor e pesquisador, mas foi sua paixão por ensinar e divulgar o conhecimento matemático de forma acessível e lúdica que o tornou famoso</p>
+
+                                              
+                                             
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="about.html" class="custom-link mb-2">
+                                                        
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-youtube" role="tabpanel" aria-labelledby="pills-youtube-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <div class="ratio ratio-16x9">
+                                                <img src="https://ichef.bbci.co.uk/ace/ws/640/amz/worldservice/live/assets/images/2014/05/06/140506150647_malba_tahan_624x351_coleccionfamiliarmalbatahan.com.br.jpg.webp" class="img-fluid" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Vida corporativa</h4>
+
+                                                <p>Julio César de Mello e Souza trabalhava de forma criativa, unindo seu conhecimento matemático com sua paixão pela literatura. Como professor, ele usava histórias e enigmas para tornar a matemática acessível e divertida, incentivando a curiosidade dos alunos. Como escritor, dedicava-se a criar narrativas envolventes, sempre com base em conceitos matemáticos rigorosos. Sua escrita era clara, simples e didática, com um toque de humor, o que tornava o aprendizado mais prazeroso. Ele acreditava que a matemática deveria ser explorada de forma lúdica, despertando o fascínio pelo raciocínio lógico.</p>
+
+                                              
+
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="contact.html" class="custom-link mb-2">
+                                                    
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="https://s2-g1.glbimg.com/iWJ0FwDzWANjul27uhpDMUSTFqA=/0x0:696x402/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/o/8/kVjnGjSxOTdNB7omFVzQ/malba1.jpg" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Suas prinicipais <span>obras</span></h4>
+
+                                                
+
+                                                   
+                                                   
+                                                    
+                                                 
+
+                                                <div class="skill-thumb mt-3">
+
+                                                    <strong>O Homem que Calculava (1938) – Sua obra mais famosa, que apresenta uma série de enigmas matemáticos em forma de histórias fascinantes e aventurescas. O protagonista, Beremiz Samir, resolve desafios matemáticos enquanto viaja pelo Oriente.
+                                                    </strong>
+                                                        <span class="float-end"></span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                                            </div>
+
+                                                    <strong> O Homem que Calculava II (1940) – Continuação do primeiro livro, com mais aventuras e problemas matemáticos desafiadores, mantendo a mesma linha de raciocínio lúdica e criativa.
+                                                    </strong>
+                                                        <span class="float-end"></span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                                            </div>
+
+                                                    <strong>  O Matemático e o Dragão (1956) – Uma obra que mistura matemática e fantasia, apresentando um matemático em uma história cheia de enigmas e mistérios.
+                                                    
+                                                        A Matemática no Dia a Dia – Livro que visa explicar conceitos matemáticos do cotidiano de forma acessível e divertida.
+                                                        
+                                                        A Arte de Contar Histórias – Embora não seja puramente sobre matemática, essa obra reflete a habilidade de Malba Tahan em criar narrativas envolventes, uma característica marcante de sua escrita.s</p>
+    </strong>
+                                                        
+
+                                                </div>
+                                                
+                                              
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="front-product">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center">
+
+                       
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-product section-padding">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5">Outros livros</h2>
+                        </div>
+
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                                <a href="vcsabia.html">
+                                    <img src="https://martinsfontespaulista.vteximg.com.br/arquivos/ids/1369424-1000-1000/934747.png?v=637496078544430000" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <span class="product-alert me-auto"></span>
+
+                                    <a href="#" class="bi-heart-fill product-icon"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                      
+                                        
+                                        <h5 class="product-title mb-0">
+                                            <a href="vcsabia.html" class="product-title-link">Você Sabia?</a>
+                                        </h5>
+
+                                        <p class="product-p">Descubra fatos aleatórios!
+                                            
+                                        </p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">25R$</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                                <a href="enaldo.html">
+                                    <img src="https://a-static.mlcdn.com.br/450x450/livro-ilustrado-oficial-enaldinho-a-lenda-da-internet-com-poster-exclusivo/ebancas/0bae8b90e2d511ed9f144201ac185033/dd6a67ef7078eb75afd9e82df862b619.jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <span class="product-alert"></span>
+
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="enaldo.html" class="product-title-link">Enaldinho</a>
+                                        </h5>
+
+                                        <p class="product-p">Descubra tudo sobre ele!</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">35R$</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                                <a href="rezende.html">
+                                    <img src="https://amancheia.com.br/13379-large_default/de-volta-ao-jogo-rezendeevil.jpg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="rezende.html" class="product-title-link">Rezendeevil</a>
+                                        </h5>
+
+                                        <p class="product-p">Descubra sobre sua biografia!</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">45R$</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-10 me-auto mb-4">
+                        <h4 class="text-white mb-3"><a href="index.html">Livraria  </a><span> 7 Irmãos</span></h4>
+                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2024<strong>Livraria 7 Irmãos</strong></p>
+                        <br>
+                        <p class="copyright-text">Designed by <a href="" target="_blank">Desceu FC</a></p>
+                    </div>
+
+                    <div class="col-lg-5 col-8">
+                        <h5 class="text-white mb-3">Contato <span></span></h5>
+
+                        <ul class="footer-menu d-flex flex-wrap">
+                          
+                            <ul class="social-icon"> 
+                                <br>
+
+                                <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+    
+                                <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+    
+                                <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+    
+                                <li><a href="#" class="social-icon-link bi-skype"></a></li>
+                            </ul>
+                          
+                           
+
+                           
+
+                    
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-4">
+                        <h5 class="text-white mb-3">Desenvolvedores</h5>
+
+                        <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Equipe</a></li>
+                           
+                        
+                    </div>
+                    
+                        
+                           
+                        
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Headroom.js"></script>
+        <script src="js/jQuery.headroom.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
